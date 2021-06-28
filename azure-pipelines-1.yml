@@ -16,5 +16,15 @@ steps:
 - task: WhiteSource@20
   inputs:
     cwd: '$(System.DefaultWorkingDirectory)'
+    projectName: 'C3535526'
+    configuration: |
+      productName = C395084
+      projectName = C395084
+      log.level = debug
+      npm.runPreStep = true
+      resolveAllDependencies = false
+      npm.resolveDependencies = true
+      npm.includeDevDependencies = false
+      includes = **/*.js **/*.npm
 
 
