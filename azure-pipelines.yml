@@ -10,7 +10,7 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-- script: docker pull hello-world
+- script: docker pull docker pull hello-world:linux
   displayName: 'Run a one-line script'
 - script: docker images
   displayName: 'Run a one-line script2'
