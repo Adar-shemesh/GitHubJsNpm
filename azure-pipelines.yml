@@ -6,7 +6,7 @@
 trigger:
 - master
 
-pool: Default
+pool: Salih_Laptop
 ##  vmImage: ubuntu-latest
 
 steps:
