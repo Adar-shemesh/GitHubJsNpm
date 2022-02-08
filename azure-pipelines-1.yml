@@ -6,14 +6,14 @@
 trigger:
 - master
 
-pool:
-  vmImage: ubuntu-latest
+pool: Salih_Laptop
+##  vmImage: ubuntu-latest
 
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 
-- task: WhiteSource@20
+- task: WhiteSource@21
   inputs:
     cwd: '$(System.DefaultWorkingDirectory)'
     projectName: 'C3535526'
@@ -26,5 +26,3 @@ steps:
       npm.resolveDependencies = true
       npm.includeDevDependencies = false
       includes = **/*.js **/*.npm
-
-
