@@ -28,3 +28,4 @@ steps:
       npm.resolveDependencies = true
       npm.includeDevDependencies = false
       includes = **/*.js **/*.npm
+    scanReportTimeout: '2'
