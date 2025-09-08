@@ -1,5 +1,5 @@
 {
-  "name": "WST-31-devDepTrue",
+  "name": "WST_27",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,6 +9,7 @@
   "author": "Elaad Salti",
   "license": "MIT",
   "dependencies": {
+    "postcss": "^7.0.27",
     "q": "1.5.1"
   },
   "devDependencies": {
