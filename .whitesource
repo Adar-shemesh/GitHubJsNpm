@@ -1,6 +1,6 @@
-#### WhiteSource "Bolt for Github" configuration file ####
-#---------------------------------------------------------
-
-# Configuration
-#--------------
-#scanRepository=false
+{
+  "scanSettings": {
+    "projectToken": "5e233ed76afb492f90695199ef77fb76d299e5d9838942178307035623cd1922",
+    "baseBranches": []
+  }
+}
