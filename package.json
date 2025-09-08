@@ -1,18 +1,11 @@
 {
-  "name": "WST_27",
+  "name": "tictacmul",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Elaad Salti",
-  "license": "MIT",
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "postcss": "^7.0.27",
-    "q": "1.5.1"
-  },
-  "devDependencies": {
-    "chalk": "2.3.0"
+    "socket.io": "2.4.1",
+    "@angular/core": "7.2.0"
   }
 }
